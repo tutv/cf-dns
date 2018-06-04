@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/tutv/cf-dns#readme",
   "dependencies": {
-    "cloudflare": "^2.4.1",
     "dotenv": "^6.0.0",
     "node-schedule": "^1.3.0",
     "request": "^2.87.0",
