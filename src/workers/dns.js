@@ -3,7 +3,7 @@ const IPServices = require('../services/IPServices');
 const CloudFlareServices = require('../services/CloudFlareServices');
 
 module.exports = () => {
-    const records = parseListDNS(process.env.DNS || "");
+    const records = parseListDNS(process.env.CF_DNS || "");
 
     IPServices.getMyIP()
         .then(myIP => {
