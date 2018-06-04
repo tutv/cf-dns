@@ -13,6 +13,16 @@ CF_ZONE_ID=zone_id
 CF_DNS=record.domain.com|another.domain.com
 ```
 
+## Installation
+```
+//with npm
+npm install
+
+//or yarn
+yarn
+
+```
+
 ## Run now
 
 ```
